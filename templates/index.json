@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image text banner",
+            "heading": "Image banner",
             "heading_size": "h0"
           }
         },
@@ -35,13 +35,13 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-bg.png",
-        "image_overlay_opacity": 0,
+        "image": "{{ shop.brand.cover_image }}",
+        "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_content_position": "top-left",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
