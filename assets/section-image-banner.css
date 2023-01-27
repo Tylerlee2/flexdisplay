@@ -330,7 +330,7 @@
   .banner--desktop-transparent .button--secondary {
     --color-button: 40, 46, 53;
     --color-button-text: 255, 255, 255;
-    border-radius: 16;
+    border-radius: 16px;
   }
 
   .banner--desktop-transparent .content-container:after {
