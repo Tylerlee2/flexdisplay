@@ -7,16 +7,14 @@
           "type": "heading",
           "settings": {
             "heading": "Image text banner",
-            "heading_size": "h0",
-            "color_scheme": "background-1"
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body",
-            "color_scheme": "background-1"
+            "text_style": "body"
           }
         },
         "button": {
