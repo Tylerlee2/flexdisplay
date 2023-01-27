@@ -330,7 +330,6 @@
   .banner--desktop-transparent .button--secondary {
     --color-button: 40, 46, 53;
     --color-button-text: 255, 255, 255;
-    --alpha-button-background: 0;
   }
 
   .banner--desktop-transparent .content-container:after {
