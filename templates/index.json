@@ -35,13 +35,13 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/bedroom-bed-with-brown-throw-pillows.jpg",
+        "image": "shopify:\/\/shop_images\/banner-bg.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
