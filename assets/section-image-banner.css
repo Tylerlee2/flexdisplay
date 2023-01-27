@@ -331,7 +331,7 @@
     --color-button: 40, 46, 53;
     --color-button-text: 255, 255, 255;
     border: none;
-    border-radius: 16px;
+    border-radius: 8px;
     box-shadow: none;
   }
 
