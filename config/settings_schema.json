@@ -17,7 +17,7 @@
       {
         "type": "color",
         "id": "colors_brand",
-        "default": "#00ff00",
+        "default": "#00FF00",
         "label": "Brand"
       },
       {
