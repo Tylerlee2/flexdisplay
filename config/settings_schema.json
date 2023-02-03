@@ -16,6 +16,13 @@
       },
       {
         "type": "color",
+        "id": "colors_brand",
+        "default": "#FFFFFF",
+        "label": "t:settings_schema.colors.settings.colors_brand.label",
+        "info": "t:settings_schema.colors.settings.colors_brand.info"
+      },
+      {
+        "type": "color",
         "id": "colors_solid_button_labels",
         "default": "#FFFFFF",
         "label": "t:settings_schema.colors.settings.colors_solid_button_labels.label",
