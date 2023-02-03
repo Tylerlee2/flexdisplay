@@ -18,8 +18,8 @@
         "type": "color",
         "id": "colors_brand",
         "default": "#FFFFFF",
-        "label": "t:settings_schema.colors.settings.colors_brand.label",
-        "info": "t:settings_schema.colors.settings.colors_brand.info"
+        "label": "Brand",
+        "info": "Used as brand color"
       },
       {
         "type": "color",
