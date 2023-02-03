@@ -223,6 +223,7 @@
   },
   "presets": {
     "Default": {
+      "colors_brand": "#ff0000",
       "colors_solid_button_labels": "#ffffff",
       "colors_accent_1": "#121212",
       "gradient_accent_1": "",
