@@ -21,7 +21,7 @@
 
 .color-brand {
   --color-foreground: var(--color-base-solid-button-labels);
-  --color-background: var(--color-base-brand);
+  --color-background: #121213;
   --gradient-background: var(--gradient-base-accent-1);
 }
 
