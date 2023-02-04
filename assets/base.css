@@ -20,7 +20,9 @@
 }
 
 .color-brand {
-  background:#568553;
+  --color-foreground: var(--color-base-solid-button-labels);
+  --color-background: var(--color-base-brand);
+  --gradient-background: var(--gradient-base-accent-1);
 }
 
 .color-accent-1 {
@@ -314,6 +316,7 @@ html.no-js .no-js-hidden {
 }
 
 body,
+.color_brand,
 .color-background-1,
 .color-background-2,
 .color-inverse,
