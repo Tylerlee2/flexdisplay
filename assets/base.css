@@ -41,6 +41,10 @@
   --color-foreground: var(--color-base-outline-button-labels);
 }
 
+.color-foreground-brand {
+  --color-foreground: var(--color-base-brand);
+}
+
 .color-foreground-accent-1 {
   --color-foreground: var(--color-base-accent-1);
 }
