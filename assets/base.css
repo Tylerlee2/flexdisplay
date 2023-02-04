@@ -19,8 +19,8 @@
   --gradient-background: rgb(var(--color-base-text));
 }
 
-.color-brand-1 {
-  --color-background: #655434;
+.color-brand {
+  background:#568553;
 }
 
 .color-accent-1 {
