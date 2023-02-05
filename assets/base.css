@@ -21,7 +21,7 @@
 
 .color-brand {
   --color-foreground: var(--color-base-solid-button-labels);
-  --color-background: rgb(var(--color-base-brand));
+  --color-background: var(--color-base-brand);
 }
 
 .color-accent-1 {
