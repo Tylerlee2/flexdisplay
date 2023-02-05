@@ -16,6 +16,12 @@
       },
       {
         "type": "color",
+        "id": "colors_b",
+        "default": "#FF0000",
+        "label": "B"
+      },
+      {
+        "type": "color",
         "id": "colors_brand",
         "default": "#FF0000",
         "label": "Brand"
