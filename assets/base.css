@@ -22,7 +22,6 @@
 .color-brand {
   --color-foreground: var(--color-base-solid-button-labels);
   --color-background: var(--color-base-brand);
-  --gradient-background: var(--gradient-base-brand);
 }
 
 .color-accent-1 {
