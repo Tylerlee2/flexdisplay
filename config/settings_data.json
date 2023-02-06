@@ -1,7 +1,9 @@
 {
   "current": {
-    "colors_b": "#252422",
-    "colors_brand": "#ffa000",
+    "color_brand": "#FECF2E",
+    "color_text": "#060139",
+    "color_price": "#FE6474",
+    "color_link": "#4054DA",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#000000",
     "gradient_accent_1": "",
@@ -224,7 +226,6 @@
   },
   "presets": {
     "Default": {
-      "colors_brand": "#0000ff",
       "colors_solid_button_labels": "#ffffff",
       "colors_accent_1": "#121212",
       "gradient_accent_1": "",
