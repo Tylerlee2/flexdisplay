@@ -11,10 +11,6 @@
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
-        "type": "header",
-        "content": "t:settings_schema.colors.settings.header__1.content"
-      },
-      {
         "type": "color",
         "id": "color_brand",
         "default": "#FECF2E",
@@ -37,6 +33,10 @@
         "id": "color_link",
         "default": "#4054DA",
         "label": "Link"
+      },
+      {
+        "type": "header",
+        "content": "t:settings_schema.colors.settings.header__1.content"
       },
       {
         "type": "color",
