@@ -1,34 +1,6 @@
 /* Color custom properties */
 
 :root,
-
-.text-title {
-  font-
-}
-
-.color-brand {
-  --color-foreground: var(--color-base-solid-button-labels);
-  --color-background: var(--color-brand);
-  color: rgba(var(--color-foreground), 0.75);
-  background-color: rgb(var(--color-brand));
-}
-
-.color-text {
-  --color-text: rgb(var(--color-text));
-  --color-foreground: var(--color-base-solid-button-labels);
-  --color-background: var(--color-text);
-}
-
-.color-price {
-  --color-foreground: var(--color-base-solid-button-labels);
-  --color-background: var(--color-price);
-}
-
-.color-link {
-  --color-foreground: var(--color-base-solid-button-labels);
-  --color-background: var(--color-link);
-}
-
 .color-background-1 {
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background-1);
