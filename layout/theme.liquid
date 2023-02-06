@@ -59,19 +59,14 @@
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
 
-/*         --color-brand: {{ settings.color_brand }};
-        --color-text: {{ settings.color_text }};
-        --color-price: {{ settings.color_price }};
-        --color-link: {{ settings.color_link }}; */
-        
         --color-base-text: {{ settings.color_text.red }}, {{ settings.color_text.green }}, {{ settings.color_text.blue }};
         --color-shadow: {{ settings.color_text.red }}, {{ settings.color_text.green }}, {{ settings.color_text.blue }};
         --color-base-background-1: 255, 255, 255;
         --color-base-background-2: {{ settings.color_text.red }}, {{ settings.color_text.green }}, {{ settings.color_text.blue }};
         /*按钮背景为白时的品牌字色 */
-        --color-base-solid-button-labels: {{ settings.brand.red }}, {{ settings.brand.green }}, {{ settings.brand.blue }};
+        --color-base-solid-button-labels: {{ settings.color_brand.red }}, {{ settings.color_brand.green }}, {{ settings.color_brand.blue }};
         --color-base-outline-button-labels: {{ settings.color_text.red }}, {{ settings.color_text.green }}, {{ settings.color_text.blue }};
-        --color-base-accent-1: {{ settings.brand.red }}, {{ settings.brand.green }}, {{ settings.brand.blue }};
+        --color-base-accent-1: {{ settings.color_brand.red }}, {{ settings.color_brand.green }}, {{ settings.color_brand.blue }};
         /*不会再用到了 */
         --color-base-accent-2: {{ settings.colors_accent_2.red }}, {{ settings.colors_accent_2.green }}, {{ settings.colors_accent_2.blue }};
         /*系统就没引用过 */
@@ -79,7 +74,8 @@
 
         --gradient-base-background-1: {% if settings.gradient_background_1 != blank %}{{ settings.gradient_background_1 }}{% else %}{{ '#FFFFFF' }}{% endif %};
         --gradient-base-background-2: {% if settings.gradient_background_2 != blank %}{{ settings.gradient_background_2 }}{% else %}{{ settings.color_text  | hex_to_rgba: 0.04 }}{% endif %};
-        --gradient-base-accent-1: {% if settings.gradient_accent_1 != blank %}{{ settings.gradient_accent_1 }}{% else %}{{ settings.colors_accent_1 }}{% endif %};
+        --gradient-base-accent-1: {% if settings.gradient_accent_1 != blank %}{{ settings.gradient_accent_1 }}{% else %}{{ settings.color_brand }}{% endif %};
+        /*不会再用到了 */
         --gradient-base-accent-2: {% if settings.gradient_accent_2 != blank %}{{ settings.gradient_accent_2 }}{% else %}{{ settings.colors_accent_2 }}{% endif %};
 
         --media-padding: {{ settings.media_padding }}px;
