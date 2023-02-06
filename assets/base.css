@@ -2,11 +2,15 @@
 
 :root,
 
+.text-title {
+  font-
+}
+
 .color-brand {
   --color-foreground: var(--color-base-solid-button-labels);
   --color-background: var(--color-brand);
   color: rgba(var(--color-foreground), 0.75);
-  background-color: rgb(var(--color-background));
+  background-color: rgb(var(--color-brand));
 }
 
 .color-text {
@@ -57,10 +61,6 @@
 
 .color-foreground-outline-button {
   --color-foreground: var(--color-base-outline-button-labels);
-}
-
-.color-foreground-brand {
-  --color-foreground: var(--color-base-brand);
 }
 
 .color-foreground-accent-1 {
