@@ -16,15 +16,27 @@
       },
       {
         "type": "color",
-        "id": "colors_b",
+        "id": "color_brand",
         "default": "#FF0000",
-        "label": "B"
+        "label": "Brand"
       },
       {
         "type": "color",
-        "id": "colors_brand",
-        "default": "#FF0000",
-        "label": "Brand"
+        "id": "color_text",
+        "default": "#060139",
+        "label": "Text"
+      },
+      {
+        "type": "color",
+        "id": "colors_price",
+        "default": "#FE6474",
+        "label": "Price"
+      },
+      {
+        "type": "color",
+        "id": "color_link",
+        "default": "#4054DA",
+        "label": "Link"
       },
       {
         "type": "color",
