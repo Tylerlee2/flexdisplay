@@ -1,5 +1,10 @@
 {
   "sections": {
+    "banner-nav": {
+      "type": "banner-nav",
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -212,6 +217,7 @@
     }
   },
   "order": [
+    "banner-nav",
     "image_banner",
     "rich_text",
     "featured_collection",
