@@ -20,8 +20,7 @@
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <div class="{{ section.settings.color_scheme }} gradient isolate">
-  <h2>{{ section.id }},{{ block.shopify_attributes }}></h2>
-  
+  <h2>{{ section.id }}{{ block.shopify_attributes }}></h2>
   <div class="page-width no-heading section-{{ section.id }}-padding">
     <div class="collage">
       {%- for block in section.blocks -%}
