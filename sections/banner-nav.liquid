@@ -20,11 +20,12 @@
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <div class="{{ section.settings.color_scheme }} gradient isolate">
+  <h2>{{ section.id }},{{ block.shopify_attributes }}></h2>
+  
   <div class="page-width no-heading section-{{ section.id }}-padding">
-    <h2>{{ section.id }}</h2>
-    <div class="collage{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
+    <div class="collage">
       {%- for block in section.blocks -%}
-        <div class="collage__item collage__item--{{ block.type }} collage__item--{{ section.settings.desktop_layout }}" {{ block.shopify_attributes }}>
+        <div class="collage__item collage__item--{{ block.type }} collage__item--left" {{ block.shopify_attributes }}>
           {%- case block.type -%}
             {%- when 'image' -%}
               <div class="collage-card {% if section.settings.card_styles == 'none' %}global-media-settings{% else %}card-wrapper {{ section.settings.card_styles }} color-{{ settings.card_color_scheme }}{% endif %}">
@@ -128,12 +129,6 @@
   "class": "section",
   "settings": [
     {
-      "type": "text",
-      "id": "heading",
-      "default": "Multimedia collage",
-      "label": "t:sections.collage.settings.heading.label"
-    },
-    {
       "type": "select",
       "id": "desktop_layout",
       "options": [
@@ -148,22 +143,6 @@
       ],
       "default": "left",
       "label": "t:sections.collage.settings.desktop_layout.label"
-    },
-    {
-      "type": "select",
-      "id": "mobile_layout",
-      "options": [
-        {
-          "value": "collage",
-          "label": "t:sections.collage.settings.mobile_layout.options__1.label"
-        },
-        {
-          "value": "column",
-          "label": "t:sections.collage.settings.mobile_layout.options__2.label"
-        }
-      ],
-      "default": "collage",
-      "label": "t:sections.collage.settings.mobile_layout.label"
     },
     {
       "type": "select",
